@@ -74,7 +74,6 @@ chiw=$(curl -s "$chiwa" | jq -r .chiwa)
 echo -e "${YELLOW}Tokennya apaa hayyooooo~~~~~: ${NC}"
 read USER_TOKEN
 
-#Memverifikasi token
 if [ "$USER_TOKEN" != "$chiw" ]; then
   echo -e "${RED}Yahhhh,tokennya salaahhh, papayyy~~~~~${NC}"
   exit 1
