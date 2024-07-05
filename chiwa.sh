@@ -67,9 +67,7 @@ echo -e "#################################################"
 sudo apt update
 sudo apt install -y jq
 
-chiwa=$(echo -e "\x68\x74\x74\x70\x73\x3a\x2f\x2f\x67\x65\x74\x70\x61\x6e\x74\x72\x79\x2e\x63\x6c\x6f\x75\x64\x2f\x61\x70\x69\x76\x31\x2f\x70\x61\x6e\x74\x72\x79\x2f\x63\x34\x61\x37\x64\x31\x31\x33\x2d\x38\x35\x66\x65\x2d\x34\x38\x63\x37\x2d\x61\x36\x30\x61\x2d\x36\x39\x34\x39\x64\x39\x34\x36\x66\x37\x63\x30\x2f\x62\x61\x73\x6b\x65\x74\x2f\x74\x68\x65\x6d\x65\x74\x6f\x6b\x65\x6e")
-
-chiw=$(curl -s "$chiwa" | jq -r .chiwa)
+chiw=alo
 
 echo -e "${YELLOW}Tokennya apaa hayyooooo~~~~~: ${NC}"
 read USER_TOKEN
@@ -136,7 +134,7 @@ install_tema() {
       THEME_URL="https://github.com/aiprojectchiwa/pterodactylthemeautoinstaller/raw/main/stellaredited.zip"
       ;;
     2)
-      THEME_URL="https://github.com/aiprojectchiwa/chino/raw/main/custom_install_enigma.zip"
+      THEME_URL="https://github.com/akaneeeeeeee287/chiwa/raw/main/enigwavechiwa.zip"
       ;;
     *)
       echo -e "${RED}Pilihan tidak valid, keluar dari skrip.${NC}"
